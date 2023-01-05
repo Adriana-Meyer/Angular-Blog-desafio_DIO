@@ -1,0 +1,16 @@
+.articles__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 110vh;
+    width: 100vw;
+}
+
+.articles__main {
+    width: 50%;
+}
+
+.articles__regular {
+    width: 50%;
+}
