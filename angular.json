@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Angular-Blog-desafio-DIO:build:production"
+              "browserTarget": "Angular-blog-desafio-DIO:build:production"
             },
             "development": {
-              "browserTarget": "Angular-Blog-desafio-DIO:build:development"
+              "browserTarget": "Angular-blog-desafio-DIO:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular-Blog-desafio-DIO:build"
+            "browserTarget": "Angular-blog-desafio-DIO:build"
           }
         },
         "test": {

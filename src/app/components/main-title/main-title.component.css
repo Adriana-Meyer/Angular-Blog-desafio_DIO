@@ -1,0 +1,16 @@
+.main-title__container {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title__text {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 15rem;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+}
+
+.title__line {
+    margin: 1rem 5rem;
+    opacity: 0.3;
+}
