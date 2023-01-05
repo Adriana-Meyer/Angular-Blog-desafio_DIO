@@ -1,0 +1,31 @@
+.highlight__container {
+    padding: 3rem 0 3rem 1rem;
+    margin: 0 2rem 0 5rem;
+}
+
+.highlight__image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.content__container {
+    text-decoration: none;
+}
+
+.highlight__date {
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+    color: #4e4e4e;
+}
+
+.highlight__title {
+    margin: 0.5rem 0;
+    font-size: 1.75rem;
+}
+
+.highlight__text {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    color: #4e4e4e;
+    line-height: 1.5rem;
+}
