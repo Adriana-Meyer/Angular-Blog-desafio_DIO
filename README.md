@@ -1,8 +1,16 @@
 # Angular-Blog-desafio_DIO
 Criação de um blog utilizando Angular com base em um layout do Dribbble, realizado como desafio de projeto para o Bootcamp "NTT Data Diversidade em Tech".
 
+Caso queira conferir o layout base, acesse: https://dribbble.com/shots/18089191-Blog-layout
 
-# AngularBlogDesafioDIO
+## Objetivos:
+
+-[x] Aprender e praticar a utilização de Angular CLI
+-[x] Aprender a analisar e definir a estrutura dos componentes de um layout 
+-[x] Construir os componentes 
+
+
+# Instruções referentes ao ANGULAR:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 

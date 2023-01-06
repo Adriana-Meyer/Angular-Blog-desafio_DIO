@@ -1,14 +1,17 @@
-<app-menu></app-menu>
+<header>
+    <app-menu></app-menu>
+</header>
+<main>
+    <app-main-title></app-main-title>
 
-<app-main-title></app-main-title>
-
-<div class="articles__container">
-    <div class="articles__main">
-        <app-highlight-card></app-highlight-card>
+    <div class="articles__container">
+        <div class="articles__main">
+            <app-highlight-card></app-highlight-card>
+        </div>
+        <div class="articles__regular">
+            <app-side-card></app-side-card>
+            <app-side-card></app-side-card>
+            <app-side-card></app-side-card>
+        </div>
     </div>
-    <div class="articles__regular">
-        <app-side-card></app-side-card>
-        <app-side-card></app-side-card>
-        <app-side-card></app-side-card>
-    </div>
-</div>
+</main>
