@@ -10,3 +10,23 @@
 .articles__regular {
     width: 50%;
 }
+
+.others__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+}
+
+.articles__others__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #8d8b8b;
+    margin: 2rem 2rem 0.5rem 2rem;
+}
+
+.articles__others {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+}
