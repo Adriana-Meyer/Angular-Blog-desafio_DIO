@@ -1,6 +1,11 @@
 .menu__container {
     display: flex;
-    padding: 3rem 5rem 1rem 5rem
+    padding: 3rem 5rem 1rem 5rem;
+    align-items: center;
+}
+
+.menu__logo {
+    max-width: 4rem;
 }
 
 .menu__list {
@@ -13,8 +18,24 @@
     margin-left: 2rem;
     text-transform: uppercase;
     padding: 0.5rem;
+    font-weight: 700;
+    color: #888787;
 }
 
 .menu__link:hover {
-    border-left: 5px solid #FFFFFF;
+    border-left: 5px solid #888787;
+}
+
+.socialMedia___list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 45%;
+}
+
+.socialMedia__icon {
+    width: 2rem; 
+    height: 2rem;
+    margin-left: 1rem;
 }
