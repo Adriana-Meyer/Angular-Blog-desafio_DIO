@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-others-card',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./others-card.component.css']
 })
 export class OthersCardComponent implements OnInit {
+  @Input()
+  photoCover:string =""
+  @Input()
+  cardTitle:string =""
+  @Input()
+  cardDescription:string =""
+  @Input()
+  cardDate:string =""
 
   constructor() { }
 
