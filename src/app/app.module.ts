@@ -9,6 +9,7 @@ import { HighlightCardComponent } from './components/highlight-card/highlight-ca
 import { SideCardComponent } from './components/side-card/side-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { OthersCardComponent } from './components/others-card/others-card.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OthersCardComponent } from './components/others-card/others-card.compon
     HighlightCardComponent,
     SideCardComponent,
     HomeComponent,
-    OthersCardComponent
+    OthersCardComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

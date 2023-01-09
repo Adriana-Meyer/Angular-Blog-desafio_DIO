@@ -1,0 +1,42 @@
+.content__image {
+    width: 100%;
+}
+
+.content__date {
+    font-size: 0.95rem;
+    margin: 2rem 6rem;
+    color: #807f7f;
+}
+
+.content__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 6rem;
+}
+
+.content__description {
+    margin: 2rem 6rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    text-align: justify;
+    color: #807f7f;
+}
+
+.others__container {
+    background-color: #fdfdfd;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.articles__others {
+    display: flex;
+}
+
+.articles__others__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #8d8b8b;
+    margin: 2rem 2rem 0.5rem 2rem;
+}
