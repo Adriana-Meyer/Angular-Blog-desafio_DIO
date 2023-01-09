@@ -14,6 +14,8 @@ export class OthersCardComponent implements OnInit {
   cardDescription:string =""
   @Input()
   cardDate:string =""
+  @Input()
+  id:string = "0"
 
   constructor() { }
 

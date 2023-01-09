@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { data } from "../../dataBase/data";
 
 @Component({
   selector: 'app-content',
@@ -6,18 +8,30 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  @Input()
-  photoCover:string ="https://acessocultural.com.br/wp-content/uploads/2019/04/pokemon.jpg"
-  @Input()
-  contentTitle:string ="Pikachu decide virar detive"
-  @Input()
+  photoCover:string =""
+  contentTitle:string =""
   contentDescription:string =""
-  @Input()
-  contentDate:string ="Janeiro, 2022"
+  contentDate:string =""
+  private id:string | null = "0"
 
-  constructor() { }
-
+  constructor(
+    private route:ActivatedRoute) { }
+    
   ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+      this.id = value.get("id")
+    )
+    
+    this.setValuesToComponent(this.id)
+  }
+
+  setValuesToComponent(id:string | null) {
+    const result = data.filter(article => article.id === id)[0]
+
+    this.contentTitle = result.title
+    this.contentDescription = result.description
+    this.contentDate = result.date
+    this.photoCover = result.photo
   }
 
 }

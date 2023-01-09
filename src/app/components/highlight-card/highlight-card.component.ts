@@ -15,6 +15,8 @@ export class HighlightCardComponent implements OnInit {
   cardDescription:string =""
   @Input()
   cardDate:string =""
+  @Input()
+  id:string ="0"
 
   constructor() { }
 

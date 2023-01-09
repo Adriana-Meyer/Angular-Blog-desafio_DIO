@@ -1,5 +1,5 @@
 <div class="others__container">
-    <a href="#" class="others__link">
+    <a [routerLink]="['/content', id]" class="others__link">
         <img src={{photoCover}} class="others__image" alt="imagem da materia"/> 
         <p class="others__date">{{cardDate}}</p>
         <h2 class="others__title">{{cardTitle}} </h2>

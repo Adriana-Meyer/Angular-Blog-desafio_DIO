@@ -1,8 +1,8 @@
 <div class="sideCard__container">
-    <a href="#" class="sideCard__link">
+    <a [routerLink]="['/content', id]" class="sideCard__link">
         <img src={{photoCover}} class="sideCard__image" alt="imagem da materia"/> 
     </a>
-    <a href="#" class="sideContent__container">
+    <a [routerLink]="['/content', id]" class="sideContent__container">
         <p class="sideCard__date">{{cardDate}}</p>
         <h2 class="sideCard__title">{{cardTitle}}</h2>
     </a>

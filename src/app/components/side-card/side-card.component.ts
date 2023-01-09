@@ -12,7 +12,9 @@ export class SideCardComponent implements OnInit {
   cardTitle:string =""
   @Input()
   cardDate:string =""
-  
+  @Input()
+  id:string = "0"
+
   constructor() { }
 
   ngOnInit(): void {

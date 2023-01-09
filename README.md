@@ -5,9 +5,11 @@ Caso queira conferir o layout base, acesse: https://dribbble.com/shots/18089191-
 
 ## Objetivos:
 
--[x] Aprender e praticar a utilização de Angular CLI
--[x] Aprender a analisar e definir a estrutura dos componentes de um layout 
--[x] Construir os componentes 
+- [x] Aprender e praticar a utilização de Angular CLI
+- [x] Aprender a analisar e definir a estrutura dos componentes de um layout 
+- [x] Construir os componentes 
+- [x] Substituir propriedades dos componentes de forma dinâmica
+- [x] Criar rotas utilizando RouterLink
 
 
 # Instruções referentes ao ANGULAR:
